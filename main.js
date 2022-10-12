@@ -24,7 +24,7 @@ window.onscroll = function(){
                 Eldeep.style.display = 'block';
             }
             if(scrollY >= 150){
-                document.querySelector('.main').style.background = 'linear-gradient(#376281,#10001f)'
+                document.querySelector('.main').style.background = 'linear-gradient(#376281,#10001f);'
             }else{
                 document.querySelector('.main').style.background = 'linear-gradient(#10001f,#200016)'
             }
